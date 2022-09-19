@@ -5,6 +5,18 @@
 
 # A three-in-one workflow for docking, molecular dynamic and free energy pertubation.
 
+*Workflow summary, time cost will significantly depend the size of yor protein, and the GPU you used, here is just a very rough estimation*
+
+Install dependencies, ~ 15 min
+
+1.   Stage 1 docking, Smina standard mode, ~ 5 min.
+2.   Stage 2 Molecular dynamic for TOP 1 docked pose, ~ 90min.
+3.   Stage 3 Self-redock, Smina, flexible receptor mode, predicted binding mode generated. ~ 60 min.
+4.   Stage 4 Molecular dynamic, for new TOP1 pose, and score with MMGBSA(PBSA), ~ 120 min.
+
+Total time required estimated, ~ 5 hour.
+
+5. Stage 5 Free energy pertubation, for binding free energy, ~ 24 hours
 
 
 This notebook relies heavily on
