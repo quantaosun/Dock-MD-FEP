@@ -30,7 +30,7 @@ And this workflow provide you a MMPBSA calculated from MD frames, which is not p
 
 Last but not least, this workflow is highly automatic, if you pre-define your protein targets, which might cost sometime at first time, but after that, you can easily just input two simple SMILES string from you chemdraw, and that's all, just click one button, and the predicted binding affinity will be generated hours later.
 
-<img width="795" alt="image" src="https://user-images.githubusercontent.com/75652473/191024874-ae350858-c6a9-4d36-b334-ebe6ff97af6d.png">
+## References
 
 
 This notebook would like to thank https://github.com/pablo-arant
