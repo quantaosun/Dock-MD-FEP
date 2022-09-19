@@ -26,7 +26,7 @@ The main benefit of this workflow is to address the flexibility of the protein b
 
 To fully address this issue most of current docking softwares have failed, this workflow integreated molecular dynamic to fullly refine the protein-ligand complex after and before docking.
 
-And this workflow provide you a MMPBSA calculated from MD frames, which is not provided in normal docking algorithums.
+And this workflow provide you a MMPBSA calculated from MD frames, which is not provided in normal docking algorithums. What's more, a FEP based absolute binding free energy by Yank is provided as well, to further address the score issue faced by docking.
 
 Last but not least, this workflow is fully automatic, if you pre-define your protein targets, which might cost sometime at first time, but after that, you can easily just input two simple SMILES string from you chemdraw, and that's all, just click one button, and the predicted binding affinity will be generated hours later.
 
