@@ -49,4 +49,14 @@ A customised yank script (https://github.com/quantaosun/OpenMM-Yank-YAML-templat
 
 All of these are open-sourced, you can always use them as long as you cite properly.
 
+## Potential Yank analysis issue
 
+Possible method to work around it
+
+<img width="1159" alt="image" src="https://user-images.githubusercontent.com/75652473/191027139-9665ce18-1d00-485e-ae7e-0884e9d802c1.png">
+
+
+All of these are open-sourced, you can always use them as long as you cite properly.
+
+
+<img width="1159" alt="image" src="https://user-images.githubusercontent.com/75652473/191027306-4c91eab9-9f0d-4831-9f52-ec741d906e3e.png">
