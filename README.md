@@ -1,4 +1,12 @@
 # 
+![image](https://user-images.githubusercontent.com/75652473/190936040-be6681a0-a792-4acf-9436-aea5a8652ca2.png)
+```Free energy of binding(benzene) : -11.229 +- 0.352 kT (-6.694 +- 0.210 kcal/mol)```
+
+
+
+
+
+
 This notebook relies heavily on
 Making-it-rain (https://github.com/pablo-arantes/making-it-rain )
 
