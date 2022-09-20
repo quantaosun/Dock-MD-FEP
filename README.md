@@ -1,5 +1,6 @@
 # 
-![image](https://user-images.githubusercontent.com/75652473/190936040-be6681a0-a792-4acf-9436-aea5a8652ca2.png)
+![image](https://user-images.githubusercontent.com/75652473/191277950-ec8913aa-fca6-4d6c-9ab9-6a423e9f8cef.png)
+
 ```Free energy of binding(benzene) : -11.229 +- 0.352 kT (-6.694 +- 0.210 kcal/mol)```
 
 
