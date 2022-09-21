@@ -28,3 +28,5 @@ This Jupyter notebook shows how to run a Three-in-one simulation, i.e., docking,
 - Other open-soured packages like [Open-Sourced-PyMOL](https://anaconda.org/conda-forge/pymol-open-source)/  [OpenBabel](https://github.com/openbabel/openbabel)/ [Rdkit](https://github.com/rdkit/rdkit) etc.
 
 - Also, some github example/tutorial repositories,  [Yank example](https://github.com/choderalab/yank-examples) and [A customized yank script](https://github.com/quantaosun/OpenMM-Yank-YAML-template)
+
+By default, MD is desingned for equilibration 0.5 ns, production 1.0 ns , and 1 ns and 2 ns for MD0 and MD1, respectively.
