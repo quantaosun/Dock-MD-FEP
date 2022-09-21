@@ -4,36 +4,27 @@
 ```Free energy of binding(benzene) : -11.229 +- 0.352 kT (-6.694 +- 0.210 kcal/mol)```
 
 
-# A three-in-one workflow for docking, molecular dynamic and free energy pertubation.
+# **Dock-MD-FEP**
 
-*Workflow summary, time cost will significantly depend the size of yor protein, and the GPU you used, here is just a very rough estimation*
+---
+Docking, Molecular dynamic(MD), and Free energy perturbation (FEP) are important modelling methods in medicinal chemistry.
 
-Install dependencies, ~ 15 min
+This Jupyter notebook shows how to run a Three-in-one simulation, i.e., docking, MD and FEP, with freely available GPU(and CPU) from Google Colab.
 
-1.   Stage 1 docking, Smina standard mode, ~ 5 min.
-2.   Stage 2 Molecular dynamic for TOP 1 docked pose, ~ 90min.
-3.   Stage 3 Free energy pertubation, for binding free energy, ~ 24 hours
+---
 
+ **This notebook has NOT been thoroughly tested and validated. Use it at your own risk!** 
 
+--- 
 
-## References
+**This notebook is based on**
+- The MD simulation is based on [OpenMM](https://openmm.org/) and [Making-it-rain](https://twitter.com/pablitoarantes)
 
+- The FEP simulation is based on [Yank](http://getyank.org/latest/)
 
-This notebook would like to thank https://github.com/pablo-arant
-es for developing an excellent and open source suite of molecular dynamic.
-
-This notebook would like to thank https://github.com/mwojcikowski for developing an excellent and open source suite of molecular docking.
-
-This notebook would like to thank Yank (http://getyank.org/latest/) for developing an excellent and open source suite of free energy simulation.
+- The docking is based on Autodock Vina derived [Smina](https://github.com/mwojcikowski/smina)
 
 
-As well as several Github repositories
+- Other open-soured packages like [Open-Sourced-PyMOL](https://anaconda.org/conda-forge/pymol-open-source)/  [OpenBabel](https://github.com/openbabel/openbabel)/ [Rdkit](https://github.com/rdkit/rdkit) etc.
 
-Yank-example (https://github.com/choderalab/yank-examples)
-
-A customised yank script (https://github.com/quantaosun/OpenMM-Yank-YAML-template)
-
-All of these are open-sourced, you can always use them as long as you cite properly.
-
-All of these are open-sourced, you can always use them as long as you cite properly.
-
+- Also, some github example/tutorial repositories,  [Yank example](https://github.com/choderalab/yank-examples) and [A customized yank script](https://github.com/quantaosun/OpenMM-Yank-YAML-template)
