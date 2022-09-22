@@ -1,8 +1,5 @@
 # 
-```
-#@title Flexible docking
-!'./smina.static' --cpu 2 --seed 0 --autobox_ligand '{LigandFromProtein}' -r '{ProteinForDocking}' -l '{ConfoutputFilePath}' --flexdist_ligand '{LigandFromProtein}' --flexdist 5 -o '{Docked_out_FilePath}'
-```
+
 
 ![image](https://user-images.githubusercontent.com/75652473/191434271-024479e8-caad-4c18-8aaa-cf62817dd1d2.png)
 
@@ -27,7 +24,7 @@ This Jupyter notebook shows how to run a Three-in-one simulation, i.e., docking,
 
 - The FEP simulation is based on [Yank](http://getyank.org/latest/)
 
-- The docking is based on Autodock Vina derived [Smina](https://github.com/mwojcikowski/smina)
+- The docking is based on Autodock Vina derived [Gnina](https://github.com/gnina/gnina)
 
 
 - Other open-soured packages like [Open-Sourced-PyMOL](https://anaconda.org/conda-forge/pymol-open-source)/  [OpenBabel](https://github.com/openbabel/openbabel)/ [Rdkit](https://github.com/rdkit/rdkit) etc.
