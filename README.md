@@ -1,7 +1,7 @@
 # 
 ```
 #@title Flexible docking
-!'/content/drive/MyDrive/ET2000/SRPK1/5a_5f_3_3a/5a/smina.static' --cpu 2 --seed 0 --autobox_ligand '{LigandFromProtein}' -r '{ProteinForDocking}' -l '{ConfoutputFilePath}' --flexdist_ligand '{LigandFromProtein}' --flexdist 5 -o '{Docked_out_FilePath}'
+!'./smina.static' --cpu 2 --seed 0 --autobox_ligand '{LigandFromProtein}' -r '{ProteinForDocking}' -l '{ConfoutputFilePath}' --flexdist_ligand '{LigandFromProtein}' --flexdist 5 -o '{Docked_out_FilePath}'
 ```
 
 ![image](https://user-images.githubusercontent.com/75652473/191434271-024479e8-caad-4c18-8aaa-cf62817dd1d2.png)
