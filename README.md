@@ -31,4 +31,15 @@ This Jupyter notebook shows how to run a Three-in-one simulation, i.e., docking,
 
 - Also, some github example/tutorial repositories,  [Yank example](https://github.com/choderalab/yank-examples) and [A customized yank script](https://github.com/quantaosun/OpenMM-Yank-YAML-template)
 
-By default, MD is desingned for equilibration 0.5 ns, production 1.0 ns , and 1 ns and 2 ns for MD0 and MD1, respectively.
+## default parameters
+
+--
+MD , all MD input use Amber Gaff2 force field to deal with small molecule.
+
+MD 0 , equilibration 0.5 ns, production 1.0 ns. OpenMM as simulation engine.
+
+MD 1,  equilibration 1.0 ns, production 2.0 ns. OpenMM as simulation engine.
+
+Dock, gnina, --exaustiveness=200. The best pose with docking score and best CNN score was carried on to FEP 
+
+FEP, stop simulaiton when reaching error < 0.1 KT, Simulation engine OpenMM with Yank python library.
