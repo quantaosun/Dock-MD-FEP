@@ -8,6 +8,12 @@
 
 # **Dock-MD-FEP**
 
+This notebook only ask you for four string, then all the rest is handled by the code itself. 
+
+<img width="751" alt="image" src="https://user-images.githubusercontent.com/75652473/191947254-e0a25965-99e5-449e-8b44-c7fbfd452760.png">
+
+
+
 ---
 Docking, Molecular dynamic(MD), and Free energy perturbation (FEP) are important modelling methods in medicinal chemistry.
 
