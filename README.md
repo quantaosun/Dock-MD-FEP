@@ -8,7 +8,7 @@
 
 # **Dock-MD-FEP**
 
-This notebook only ask you for four string, then all the rest is handled by the code itself. 
+This notebook only requires four strings, then all the rest is handled by the code itself. 
 
 <img width="751" alt="image" src="https://user-images.githubusercontent.com/75652473/191947254-e0a25965-99e5-449e-8b44-c7fbfd452760.png">
 
@@ -19,23 +19,6 @@ Docking, Molecular dynamic(MD), and Free energy perturbation (FEP) are important
 
 This Jupyter notebook shows how to run a Three-in-one simulation, i.e., docking, MD and FEP, with freely available GPU(and CPU) from Google Colab.
 
----
-
- **This notebook has NOT been thoroughly tested and validated. Use it at your own risk!** 
-
---- 
-
-**This notebook is based on**
-- The MD simulation is based on [OpenMM](https://openmm.org/) and [Making-it-rain](https://twitter.com/pablitoarantes)
-
-- The FEP simulation is based on [Yank](http://getyank.org/latest/)
-
-- The docking is based on Autodock Vina derived [Gnina](https://github.com/gnina/gnina)
-
-
-- Other open-soured packages like [Open-Sourced-PyMOL](https://anaconda.org/conda-forge/pymol-open-source)/  [OpenBabel](https://github.com/openbabel/openbabel)/ [Rdkit](https://github.com/rdkit/rdkit) etc.
-
-- Also, some github example/tutorial repositories,  [Yank example](https://github.com/choderalab/yank-examples) and [A customized yank script](https://github.com/quantaosun/OpenMM-Yank-YAML-template)
 
 ## default parameters
 
