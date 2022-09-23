@@ -1,11 +1,5 @@
 # 
 
-
-![image](https://user-images.githubusercontent.com/75652473/191434271-024479e8-caad-4c18-8aaa-cf62817dd1d2.png)
-
-```Free energy of binding(benzene) : -11.229 +- 0.352 kT (-6.694 +- 0.210 kcal/mol)```
-
-
 # **Dock-MD-FEP**
 
 This notebook only requires four strings, then all the rest is handled by the code itself. 
@@ -32,3 +26,8 @@ MD 1,  equilibration 1.0 ns, production 2.0 ns. OpenMM as simulation engine.
 Dock, gnina, --exaustiveness=200. The best pose with docking score and best CNN score was carried on to FEP 
 
 FEP, stop simulaiton when reaching error < 0.1 KT, Simulation engine OpenMM with Yank python library.
+
+
+![image](https://user-images.githubusercontent.com/75652473/191434271-024479e8-caad-4c18-8aaa-cf62817dd1d2.png)
+
+```Free energy of binding(benzene) : -11.229 +- 0.352 kT (-6.694 +- 0.210 kcal/mol)```
