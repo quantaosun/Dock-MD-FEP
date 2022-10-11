@@ -1,5 +1,9 @@
 # 
 
+# Restart the simulation
+
+Open the Dock-MD-FEP-restart.ipynb, after pasting the working directory path of last simulation. Import drive mannually, then run all the other cells at one time.
+
 # **Dock-MD-FEP**
 
 This notebook only requires four strings, then all the rest is handled by the code itself. 
