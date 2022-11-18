@@ -3,6 +3,8 @@
 
 This notebook only requires four strings, then all the rest is handled by the code itself. 
 
+## Note the FEP here is refer to Absolute binding free energy of ONE small molecule to a protein target, not the relative free energy of TWO.
+
 <img width="751" alt="image" src="https://user-images.githubusercontent.com/75652473/191947254-e0a25965-99e5-449e-8b44-c7fbfd452760.png">
 
 
