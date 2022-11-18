@@ -1,8 +1,3 @@
-# 
-
-# Restart the simulation
-
-Open the Dock-MD-FEP-restart.ipynb, after pasting the working directory path of last simulation. Import drive mannually, then run all the other cells at one time.
 
 # **Dock-MD-FEP**
 
@@ -35,6 +30,11 @@ FEP, stop simulaiton when reaching error < 0.1 KT, Simulation engine OpenMM with
 ![image](https://user-images.githubusercontent.com/75652473/191434271-024479e8-caad-4c18-8aaa-cf62817dd1d2.png)
 
 ```Free energy of binding(benzene) : -11.229 +- 0.352 kT (-6.694 +- 0.210 kcal/mol)```
+
+# Restart the simulation
+
+Open the Dock-MD-FEP-restart.ipynb, after pasting the working directory path of last simulation. Import drive mannually, then run all the other cells at one time.
+
 ## Trouble shooting
 A CUDA version related error ```CUDA_ERROR_UNSUPPORTED_PTX_VERSION (222)```
 Please refer to https://github.com/quantaosun/Dock-MD-FEP/issues/2 or the openMM issue link https://github.com/openmm/openmm/issues/3585 
