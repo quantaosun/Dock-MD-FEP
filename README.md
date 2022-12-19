@@ -3,7 +3,7 @@
 
 This notebook only requires four strings, then all the rest is handled by the code itself. 
 
-## Note the FEP here is refer to Absolute binding free energy of ONE small molecule to a protein target, not the relative free energy of TWO.
+## Based on your purpose, you can use this workflow purely for docking, or docking plus MD simulation, or docking, MD and absolute binding free energy calculation.
 
 <img width="751" alt="image" src="https://user-images.githubusercontent.com/75652473/191947254-e0a25965-99e5-449e-8b44-c7fbfd452760.png">
 
