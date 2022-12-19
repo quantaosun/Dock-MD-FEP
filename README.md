@@ -15,7 +15,7 @@ Docking, Molecular dynamic(MD), and Free energy perturbation (FEP) are important
 This Jupyter notebook shows how to run a Three-in-one simulation, i.e., docking, MD and FEP, with freely available GPU(and CPU) from Google Colab.
 
 
-## default parameters
+## default parameters (Change simulation time to be longer is necessary for a proper simulation)
 
 --
 MD , all MD input use Amber Gaff2 force field to deal with small molecule.
