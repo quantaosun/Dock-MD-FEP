@@ -3,7 +3,7 @@
 ```$Google_Drive_Path``` is the path in your Google drive where you want to store the simulation data, and it should be provided by you.
 ![image](https://user-images.githubusercontent.com/75652473/208653399-3ee09d6c-f5be-4fff-b784-9d3a282ad65f.png)
 
-## Based on your needs, you can use this workflow purely for docking purposes, docking plus MD simulation, or docking, MD and absolute binding free energy calculation. You can just stop at the points that finish your job and then download the results locally for further analysis. 
+## You can use this workflow purely for docking purposes, docking plus MD simulation, or docking, MD and absolute binding free energy calculation. 
 
 <img width="751" alt="image" src="https://user-images.githubusercontent.com/75652473/191947254-e0a25965-99e5-449e-8b44-c7fbfd452760.png">
 
@@ -39,12 +39,12 @@ MD1 result in $Google_Drive_Path/MD1 (Docked small molecule MD result)
 MD2, equilibration 5 ns, production 10 ns. OpenMM as simulation engine.
 
 MD2 result in $Google_Drive_Path/MD1/MD2 (Docked small molecule MD result)
-```
+
 
 Dock, gnina, --exaustiveness=200. The best pose with docking score and best CNN score was carried on to FEP 
 
 FEP, stop simulaiton when reaching error < 0.1 KT, Simulation engine OpenMM with Yank python library.
-
+```
 
 ![image](https://user-images.githubusercontent.com/75652473/191434271-024479e8-caad-4c18-8aaa-cf62817dd1d2.png)
 
