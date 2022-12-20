@@ -7,7 +7,11 @@
 
 <img width="751" alt="image" src="https://user-images.githubusercontent.com/75652473/191947254-e0a25965-99e5-449e-8b44-c7fbfd452760.png">
 
+### After you've imported Google drive, just fill in the four lines that define your working path, providing your data base ID and small molecule structure, and the rest will run automatically. 
 
+![image](https://user-images.githubusercontent.com/75652473/208778203-61056498-1e51-4545-a7ac-4e5374422961.png)
+
+### After you've imported Google drive, just fill in the four lines that define your working path, providing your data base ID and small molecule structure, and the rest will run automatically. 
 
 ---
 Docking, Molecular dynamic(MD), and Free energy perturbation (FEP) are important modelling methods in medicinal chemistry.
