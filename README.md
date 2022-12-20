@@ -20,9 +20,21 @@ This Jupyter notebook shows how to run a Three-in-one simulation, i.e., docking,
 --
 MD , all MD input use Amber Gaff2 force field to deal with small molecule.
 
-MD 0 , equilibration 0.5 ns, production 1.0 ns. OpenMM as simulation engine.
+MD 0 , equilibration 1 ns, production 2 ns. OpenMM as simulation engine.
 
-MD 1,  equilibration 1.0 ns, production 2.0 ns. OpenMM as simulation engine.
+MD0 result in $Google_Drive_Path
+
+1st docking result in $Google_Drive_Path and $Google_Drive_Path/MD1
+
+MD 1,  equilibration 2 ns, production 5.0 ns. OpenMM as simulation engine.
+
+MD1 result in $Google_Drive_Path/MD1
+
+2nd docking result in $Google_Drive_Path/MD1 and $Google_Drive_Path/MD1/MD2
+
+MD2, equilibration 5 ns, production 10 ns. OpenMM as simulation engine.
+
+MD2 result in $Google_Drive_Path/MD1/MD2
 
 Dock, gnina, --exaustiveness=200. The best pose with docking score and best CNN score was carried on to FEP 
 
