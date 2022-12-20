@@ -9,7 +9,8 @@
 
 ### After you've imported Google drive, just fill in the four lines that define your working path, providing your PDB ID and small molecule structure, and the rest will run automatically with just one click. 
 
-![image](https://user-images.githubusercontent.com/75652473/208778468-64924ff2-3ac5-47b5-81b5-b6bdaf17b14c.png)
+![image](https://user-images.githubusercontent.com/75652473/208780015-a2cb00f8-9ab3-40b6-9952-2edbfdade227.png)
+
 
 ---
 
