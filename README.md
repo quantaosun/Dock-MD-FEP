@@ -1,8 +1,7 @@
 # **Dock-MD-FEP**
 
 ```$Google_Drive_Path``` is the path in your Google drive where you want to store the simulation data, and it should be provided by you.
-
-![image](https://user-images.githubusercontent.com/75652473/208652082-5ac36196-bf10-46ff-93f1-2068d20b3df7.png)
+![image](https://user-images.githubusercontent.com/75652473/208653399-3ee09d6c-f5be-4fff-b784-9d3a282ad65f.png)
 
 ## Based on your needs, you can use this workflow purely for docking purposes, docking plus MD simulation, or docking, MD and absolute binding free energy calculation. You can just stop at the points that finish your job and then download the results locally for further analysis. 
 
