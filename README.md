@@ -3,6 +3,8 @@
 
 This notebook only requires four strings, then all the rest is handled by the code itself. 
 
+<img width="850" alt="image" src="https://user-images.githubusercontent.com/75652473/208648592-c3cb8099-b80b-4b6a-b674-99f99c94a620.png">
+
 ## Based on your needs, you can use this workflow purely for docking purpose , docking plus MD simulation, or docking, MD and absolute binding free energy calculation. Just stop at the points that finishes your job, then download the results to local for furhter analysis. 
 
 <img width="751" alt="image" src="https://user-images.githubusercontent.com/75652473/191947254-e0a25965-99e5-449e-8b44-c7fbfd452760.png">
@@ -22,7 +24,6 @@ MD , all MD input use Amber Gaff2 force field to deal with small molecule.
 
 ### Up until before FEP simulation, the workflow procedes with one MD (MD0), one docking(dock1), MD(1), then the second docking (docking2), and a final MD(MD2), it will cost a total 25 ns of MD simulation.
 
-<img width="850" alt="image" src="https://user-images.githubusercontent.com/75652473/208648592-c3cb8099-b80b-4b6a-b674-99f99c94a620.png">
 
 ```
 MD 0 , equilibration 1 ns, production 2 ns. OpenMM as simulation engine.
