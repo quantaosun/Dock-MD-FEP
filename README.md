@@ -1,6 +1,6 @@
 # **Dock-MD-FEP**
 
-$Google_Drive_Path is the path in your Google drive where you want to store the simulation data, and it should be provided by you.
+```$Google_Drive_Path``` is the path in your Google drive where you want to store the simulation data, and it should be provided by you.
 
 <img width="850" alt="image" src="https://user-images.githubusercontent.com/75652473/208648592-c3cb8099-b80b-4b6a-b674-99f99c94a620.png">
 
