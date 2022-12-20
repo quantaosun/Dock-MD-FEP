@@ -1,9 +1,10 @@
-
 # **Dock-MD-FEP**
+
+$Google_Drive_Path is the path in your Google drive where you want to store the simulation data, and it should be provided by you.
 
 <img width="850" alt="image" src="https://user-images.githubusercontent.com/75652473/208648592-c3cb8099-b80b-4b6a-b674-99f99c94a620.png">
 
-## Based on your needs, you can use this workflow purely for docking purpose , docking plus MD simulation, or docking, MD and absolute binding free energy calculation. Just stop at the points that finishes your job, then download the results to local for furhter analysis. 
+## Based on your needs, you can use this workflow purely for docking purposes, docking plus MD simulation, or docking, MD and absolute binding free energy calculation. You can just stop at the points that finish your job and then download the results locally for further analysis. 
 
 <img width="751" alt="image" src="https://user-images.githubusercontent.com/75652473/191947254-e0a25965-99e5-449e-8b44-c7fbfd452760.png">
 
@@ -57,4 +58,3 @@ Open the Dock-MD-FEP-restart.ipynb, after pasting the working directory path of 
 ## Trouble shooting
 A CUDA version related error ```CUDA_ERROR_UNSUPPORTED_PTX_VERSION (222)```
 Please refer to https://github.com/quantaosun/Dock-MD-FEP/issues/2 or the openMM issue link https://github.com/openmm/openmm/issues/3585 
-
