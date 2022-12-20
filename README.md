@@ -12,10 +12,6 @@
 ![image](https://user-images.githubusercontent.com/75652473/208778468-64924ff2-3ac5-47b5-81b5-b6bdaf17b14c.png)
 
 ---
-Docking, Molecular dynamic(MD), and Free energy perturbation (FEP) are important modelling methods in medicinal chemistry.
-
-This Jupyter notebook shows how to run a Three-in-one simulation, i.e., docking, MD and FEP, with freely available GPU(and CPU) from Google Colab.
-
 
 ## default parameters (Change simulation time to be longer is necessary for a proper simulation)
 
