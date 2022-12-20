@@ -20,7 +20,7 @@ This Jupyter notebook shows how to run a Three-in-one simulation, i.e., docking,
 --
 MD , all MD input use Amber Gaff2 force field to deal with small molecule.
 
-### Up until before FEP simulation, the workflow procedes with one MD (MD0), one docking(dock1), MD(1), then the second docking (docking2), and a final MD(MD2), it will cost a total 20 ns of MD simulation.
+### Up until before FEP simulation, the workflow procedes with one MD (MD0), one docking(dock1), MD(1), then the second docking (docking2), and a final MD(MD2), it will cost a total 25 ns of MD simulation.
 
 <img width="850" alt="image" src="https://user-images.githubusercontent.com/75652473/208648592-c3cb8099-b80b-4b6a-b674-99f99c94a620.png">
 
