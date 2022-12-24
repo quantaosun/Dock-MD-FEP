@@ -15,7 +15,7 @@ conda install juyter --yes
 ```
 There are several little things that should be modified compared to using this online, like the path name etc. The majority is all the same except, we have to use Smina as docking egine instead of Gnia due to some local GPU issue may not easily ready for Gnia compatability.
 
-############################################# Updated on 24/12/2022####################################
+############################## Updated on 24/12/2022####################################
 
 
 ## To use the workflow online with Colab
