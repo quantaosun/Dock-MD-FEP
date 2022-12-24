@@ -15,7 +15,10 @@ conda install juyter --yes
 ```
 There are several little things that should be modified compared to using this online, like the path name etc. The majority is all the same except, we have to use Smina as docking egine instead of Gnia due to some local GPU issue may not easily ready for Gnia compatability.
 
-################################################ Updated on 24/12/2022################################################################################
+############################################# Updated on 24/12/2022####################################
+
+
+## To install the workflow online with Colab
 
 ```$Google_Drive_Path``` is the path in your Google drive where you want to store the simulation data, and it should be provided by you.
 ![image](https://user-images.githubusercontent.com/75652473/208653399-3ee09d6c-f5be-4fff-b784-9d3a282ad65f.png)
