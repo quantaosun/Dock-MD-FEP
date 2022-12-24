@@ -1,11 +1,14 @@
 # **Dock-MD-FEP**
 
-You can either use this workflow online (Colab) or locally.
+This workflow can be used either online (Colab) or locally.
 
-## To install the workflow to a local linux computer
-It would be good if the local computer has a decent GPU like RTX30 series or above.
+##Installing the workflow on a Linux computer
 
-Before install this workfolw, a dedicated env with python3.8 is recommended.
+By using the code locally, you only need to do the installation once, so you can skip the installation cell afterwards.
+
+RTX30 series or better GPU is recommended for the local computer.
+
+This workflow requires a dedicated Python 3.8 environment before installation.
 
 ```
 conda create --name Dock-MD-FEP python=3.8
@@ -13,7 +16,7 @@ conda activate Dock-MD-FEP
 conda install juyter --yes
 (Dock-MD-FEP) jupyter notebook Dock-MD-FEP_local_installation.ipynb
 ```
-There are several little things that should be modified compared to using this online, like the path name etc. The majority is all the same except, we have to use Smina as docking egine instead of Gnia due to some local GPU issue may not easily ready for Gnia compatability.
+There are several little things that should be modified compared to using this online, like the path name etc. Smina instead of Gnia is used because of possible GPU incompatibilities. The rest of the code remains the same.
 
 ############################## Updated on 24/12/2022####################################
 
