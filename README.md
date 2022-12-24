@@ -1,5 +1,22 @@
 # **Dock-MD-FEP**
 
+You can either use this workflow online (Colab) or locally.
+
+## To install the workflow to a local linux computer
+It would be good if the local computer has a decent GPU like RTX30 series or above.
+
+Before install this workfolw, a dedicated env with python3.8 is recommended.
+
+```
+conda create --name Dock-MD-FEP python=3.8
+conda activate Dock-MD-FEP
+conda install juyter --yes
+(Dock-MD-FEP) jupyter notebook Dock-MD-FEP_local_installation.ipynb
+```
+There are several little things that should be modified compared to using this online, like the path name etc. The majority is all the same except, we have to use Smina as docking egine instead of Gnia due to some local GPU issue may not easily ready for Gnia compatability.
+
+################################################ Updated on 24/12/2022################################################################################
+
 ```$Google_Drive_Path``` is the path in your Google drive where you want to store the simulation data, and it should be provided by you.
 ![image](https://user-images.githubusercontent.com/75652473/208653399-3ee09d6c-f5be-4fff-b784-9d3a282ad65f.png)
 
