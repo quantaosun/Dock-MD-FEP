@@ -16,7 +16,9 @@ conda activate Dock-MD-FEP
 conda install juyter --yes
 (Dock-MD-FEP) jupyter notebook Dock-MD-FEP_local_installation.ipynb
 ```
-There are several little things that should be modified compared to using this online, like the path name etc. Smina instead of Gnia is used because of possible GPU incompatibilities. The rest of the code remains the same.
+There are several little things that should be modified compared to using this online, like the path name etc. Smina instead of Gnia is used because of possible GPU incompatibilities. The rest of the code remains the same. 
+
+There might be an error from the first import cell, but it doesn't matter for the dock and MD simulation, it may only affect analysis later which you could do locally alternatively.
 
 ############################## Updated on 24/12/2022####################################
 
