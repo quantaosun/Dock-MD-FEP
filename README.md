@@ -2,7 +2,7 @@
 
 This workflow can be used either online (Colab) or locally.
 
-##Installing the workflow on a Linux computer
+## Installing the workflow on a Linux computer
 
 By using the code locally, you only need to do the installation once, so you can skip the installation cell afterwards.
 
