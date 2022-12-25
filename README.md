@@ -14,7 +14,7 @@ This workflow requires a dedicated Python 3.8 environment before installation.
 conda create --name Dock-MD-FEP python=3.8
 conda activate Dock-MD-FEP
 conda install juyter --yes
-(Dock-MD-FEP) jupyter notebook Dock-MD-FEP_local_installation.ipynb
+(Dock-MD-FEP) jupyter lab Dock-MD-FEP_local_installation.ipynb
 ```
 There are several little things that should be modified compared to using this online, like the path name etc. Smina instead of Gnia is used because of possible GPU incompatibilities. The rest of the code remains the same. 
 
