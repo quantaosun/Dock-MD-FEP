@@ -1,9 +1,5 @@
 # **Dock-MD-FEP**
 
-Hello visotor
-
-![Visitor Count](https://profile-counter.glitch.me/{username}/count.svg)
-
 This workflow can be used either online (Colab) or locally.
 
 ## Installing the workflow on a Linux computer
