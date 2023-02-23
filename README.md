@@ -1,5 +1,10 @@
 # **Dock-MD-FEP**
 
+################ PLEASE NOT #################################################################
+
+*The current workflow may be unable to deal with multiple chained PDB bank protein structure*
+############################################################################################
+
 This workflow can be used either online (Colab) or locally.
 
 ## Installing the workflow on a Linux computer
