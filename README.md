@@ -1,10 +1,13 @@
 # **Dock-MD-FEP**
 
+<<<<<<< HEAD
 ################ PLEASE NOTE ################################################################
 
 *The current workflow may be unable to deal with multiple chained PDB bank protein structure*
 ############################################################################################
 
+=======
+>>>>>>> parent of e07d304 (Update README.md)
 This workflow can be used either online (Colab) or locally.
 
 ## Installing the workflow on a Linux computer
