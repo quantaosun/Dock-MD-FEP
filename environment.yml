@@ -41,7 +41,11 @@ dependencies:
   - font-ttf-inconsolata=3.000=h77eed37_0
   - font-ttf-source-code-pro=2.038=h77eed37_0
   - font-ttf-ubuntu=0.83=hab24e00_0
+<<<<<<< HEAD
   - fontconfig=2.14.2=h14ed4e7_0
+=======
+  - fontconfig=2.14.1=hc2a2eb6_0
+>>>>>>> parent of 3897aca (Delete environment.yml)
   - fonts-conda-ecosystem=1=0
   - fonts-conda-forge=1=0
   - fonttools=4.38.0=py38h0a891b7_1
@@ -154,7 +158,11 @@ dependencies:
   - openff-toolkit-base=0.10.6=pyhd8ed1ab_0
   - openjpeg=2.5.0=hfec8fc6_2
   - openmm=7.6.0=py38h30ff9b7_0
+<<<<<<< HEAD
   - openssl=3.0.7=h0b41bf4_2
+=======
+  - openssl=3.0.7=h0b41bf4_1
+>>>>>>> parent of 3897aca (Delete environment.yml)
   - packaging=23.0=pyhd8ed1ab_0
   - packmol=20.010=h86c2bf4_0
   - parmed=3.4.4=py38h8dc9893_0
@@ -181,7 +189,11 @@ dependencies:
   - pyqt5-sip=12.11.0=py38h8dc9893_3
   - pysocks=1.7.1=pyha2e5f31_6
   - pytables=3.7.0=py38hf134f34_3
+<<<<<<< HEAD
   - python=3.8.15=he550d4f_1_cpython
+=======
+  - python=3.8.15=h4a9ceb5_0_cpython
+>>>>>>> parent of 3897aca (Delete environment.yml)
   - python-constraint=1.4.0=py_0
   - python-dateutil=2.8.2=pyhd8ed1ab_0
   - python_abi=3.8=3_cp38
@@ -201,7 +213,11 @@ dependencies:
   - six=1.16.0=pyh6c4a22f_0
   - smirnoff99frosst=1.1.0=pyh44b312d_0
   - snappy=1.1.9=hbd366e4_2
+<<<<<<< HEAD
   - sqlalchemy=2.0.0=py38h1de0b5d_0
+=======
+  - sqlalchemy=1.4.46=py38h1de0b5d_0
+>>>>>>> parent of 3897aca (Delete environment.yml)
   - tk=8.6.12=h27826a3_0
   - toml=0.10.2=pyhd8ed1ab_0
   - toolz=0.12.0=pyhd8ed1ab_0
