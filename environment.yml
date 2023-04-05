@@ -43,7 +43,11 @@ dependencies:
   - font-ttf-ubuntu=0.83=hab24e00_0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - fontconfig=2.14.2=h14ed4e7_0
+=======
+  - fontconfig=2.14.1=hc2a2eb6_0
+>>>>>>> parent of 3897aca (Delete environment.yml)
 =======
   - fontconfig=2.14.1=hc2a2eb6_0
 >>>>>>> parent of 3897aca (Delete environment.yml)
@@ -164,7 +168,11 @@ dependencies:
   - openmm=7.6.0=py38h30ff9b7_0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - openssl=3.0.7=h0b41bf4_2
+=======
+  - openssl=3.0.7=h0b41bf4_1
+>>>>>>> parent of 3897aca (Delete environment.yml)
 =======
   - openssl=3.0.7=h0b41bf4_1
 >>>>>>> parent of 3897aca (Delete environment.yml)
@@ -199,7 +207,11 @@ dependencies:
   - pytables=3.7.0=py38hf134f34_3
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - python=3.8.15=he550d4f_1_cpython
+=======
+  - python=3.8.15=h4a9ceb5_0_cpython
+>>>>>>> parent of 3897aca (Delete environment.yml)
 =======
   - python=3.8.15=h4a9ceb5_0_cpython
 >>>>>>> parent of 3897aca (Delete environment.yml)
@@ -227,7 +239,11 @@ dependencies:
   - snappy=1.1.9=hbd366e4_2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - sqlalchemy=2.0.0=py38h1de0b5d_0
+=======
+  - sqlalchemy=1.4.46=py38h1de0b5d_0
+>>>>>>> parent of 3897aca (Delete environment.yml)
 =======
   - sqlalchemy=1.4.46=py38h1de0b5d_0
 >>>>>>> parent of 3897aca (Delete environment.yml)
