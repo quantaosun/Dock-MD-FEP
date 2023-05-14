@@ -1,13 +1,5 @@
 # **Dock-MD-FEP**
 
-
-################ PLEASE NOTE ################################################################
-
-*The current workflow may be unable to deal with multiple chained PDB bank protein structure*
-############################################################################################
-
-
-
 ## Installing the workflow on a Linux computer
 
 By using the code locally, you only need to do the installation once, so you can skip the installation cell afterwards.
