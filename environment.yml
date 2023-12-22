@@ -6,7 +6,7 @@ channels:
   - https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1=conda_forge
+  #- _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_kmp_llvm
   - alabaster=0.7.12=pyhd3eb1b0_0
   - alsa-lib=1.2.8=h166bdaf_0
@@ -16,8 +16,8 @@ dependencies:
   - argon2-cffi-bindings=21.2.0=py38h7f8727e_0
   - arpack=3.7.0=hdefa2d7_2
   - astunparse=1.6.3=py_0
-  - attr=2.5.1=h166bdaf_1
-  - attrs=22.1.0=py38h06a4308_0
+  #- attr=2.5.1=h166bdaf_1
+  #- attrs=22.1.0=py38h06a4308_0
   - backcall=0.2.0=pyhd3eb1b0_0
   - beautifulsoup4=4.11.1=py38h06a4308_0
   - blosc=1.21.3=h6a678d5_0
@@ -218,7 +218,7 @@ dependencies:
   - python=3.8.16=h7a1cb2a_2
   - python-dateutil=2.8.2=pyhd3eb1b0_0
   - python-fastjsonschema=2.16.2=py38h06a4308_0
-  - python_abi=3.8=2_cp38
+  #- python_abi=3.8=2_cp38
   - pyyaml=6.0=py38h5eee18b_1
   - pyzmq=23.2.0=py38h6a678d5_0
   - qt-main=5.15.6=h7acdfc8_2
