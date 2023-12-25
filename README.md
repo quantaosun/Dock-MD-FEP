@@ -5,9 +5,9 @@
 
 *The current workflow may be unable to deal with multiple chained PDB bank protein structures*
 
-* This Colab version notebook currently is experiencing some instability due to some dependencies incompatible issue. This will be solved later, for now, you are advised to do this Dock-MD-FEP separately with three independent notebooks and
+* This Colab version notebook is currently experiencing some instability due to dependencies and incompatible issues. This will be solved later, for now, you are advised to do this Dock-MD-FEP separately with three independent notebooks and
 
-* The third stage is  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/quantaosun/Dock-MD-FEP/HEAD?labpath=Dock_MD_FEP.ipynb) (This is only a test to assure yourself that the FEP is good to go, to run the actual job please use a GPU platform).
+* The third stage is  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/quantaosun/Dock-MD-FEP/HEAD?labpath=Dock_MD_FEP.ipynb) (This is only a test to assure yourself that the FEP is good to go, to run the actual job please use a GPU platform. Remember to change the platform to CPU during the test and back to CUDA in the real job). 
 
 * The second stage is a free MD (https://github.com/pablo-arantes/making-it-rain/blob/main/Protein_ligand.ipynb) or at least an MD input generation process that you can finish from here [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/quantaosun/pl3_gmx_mmpbsa/HEAD) ,
 
