@@ -1,9 +1,9 @@
 ame: Dock-MD-FEP
 channels:
-  - https://mirrors.ustc.edu.cn/anaconda/pkgs/main
+  #- https://mirrors.ustc.edu.cn/anaconda/pkgs/main
   - conda-forge
-  - https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
-  - https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
+  #- https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
+  #- https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
   - defaults
 dependencies:
   ##- _libgcc_mutex=0.1=conda_forge
