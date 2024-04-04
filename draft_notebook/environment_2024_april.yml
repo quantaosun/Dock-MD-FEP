@@ -1,9 +1,9 @@
 name: Dock-MD-FEP
 channels:
   - conda-forge
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  #- https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  #- https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  #- https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
   - defaults
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
