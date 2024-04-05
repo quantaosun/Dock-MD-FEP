@@ -74,14 +74,14 @@ MD1 result in $Google_Drive_Path/MD1 (Docked small molecule MD result)
 
 2nd docking result in $Google_Drive_Path/MD1 and $Google_Drive_Path/MD1/MD2
 
-MD2, equilibration 5 ns, production 10 ns. OpenMM as simulation engine.
+MD2, equilibration 5 ns, production 10 ns. OpenMM as a simulation engine.
 
 MD2 result in $Google_Drive_Path/MD1/MD2 (Docked small molecule MD result)
 
 
 Dock, gnina, --exaustiveness=200. The best pose with docking score and best CNN score was carried on to FEP 
 
-FEP, stop simulaiton when reaching error < 0.1 KT, Simulation engine OpenMM with Yank python library.
+FEP, stop the simulation when reaching error < 0.1 KT, Simulation engine OpenMM with Yank python library.
 ```
 
 ![image](https://user-images.githubusercontent.com/75652473/191434271-024479e8-caad-4c18-8aaa-cf62817dd1d2.png)
@@ -90,8 +90,15 @@ FEP, stop simulaiton when reaching error < 0.1 KT, Simulation engine OpenMM with
 
 # Restart the simulation
 
-Open the Dock-MD-FEP-restart.ipynb, after pasting the working directory path of last simulation. Import drive mannually, then run all the other cells at one time.
+Open the Dock-MD-FEP-restart.ipynb, after pasting the working directory path of last simulation. Import the drive manually, then run all the other cells at one time.
 
 ## Trouble shooting
 A CUDA version related error ```CUDA_ERROR_UNSUPPORTED_PTX_VERSION (222)```
 Please refer to https://github.com/quantaosun/Dock-MD-FEP/issues/2 or the openMM issue link https://github.com/openmm/openmm/issues/3585 
+
+## Those with access to AI studio can try this workflow with automatic analysis. (Extend the simulation steps if you have enough GPU time)
+
+The user is expected to upload the ligand.mol2 + starting_end.pdb to the default path, then submit the job to the queue. 
+
+
+https://aistudio.baidu.com/clusterprojectdetail/7677668
