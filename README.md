@@ -102,3 +102,5 @@ The user is expected to upload the ligand.mol2 + starting_end.pdb to the default
 
 
 https://aistudio.baidu.com/clusterprojectdetail/7677668
+
+## The FEP section of this workflow relies on Yank, which built on OpenMMM with customirised potential, for a general OpenMM free energy calculation see https://openmm.github.io/openmm-cookbook/latest/notebooks/tutorials/Alchemical_free_energy_calculations.html
