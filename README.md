@@ -8,6 +8,16 @@
 * This Colab version notebook is currently experiencing some instability due to dependencies and incompatible issues. This will be solved later, for now, you are advised to do this Dock-MD-FEP separately with three independent notebooks and
 
 * ### The third stage is  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/quantaosun/Dock-MD-FEP/HEAD?labpath=Dock_MD_FEP.ipynb)
+  PDB 3HTB docked with a benzene `c1ccccc1`, the calculation at 800 steps for both `complex` and `solvent` legs
+
+```
+Free energy of binding  :   -24.323 +- 0.314 kT (-14.501 +- 0.187 kcal/mol)
+DeltaG complex          :   202.536 +- 0.314 kT
+DeltaG standard state correction:            -14.254 kT
+DeltaG solvent          :   163.958 +- 0.015 kT
+
+Enthalpy of binding     :   -41.509 +- 6.394 kT (-24.746 +- 3.812 kcal/mol)
+```
 
   (This is only a test to assure yourself that the FEP is good to go, to run the actual job please use a GPU platform. Remember to change the platform to CPU during the test and back to CUDA in the real job). Please check your Yank simulation control file comes with the two lines below crossed off.
 
