@@ -1,0 +1,90 @@
+# This is an test example designed for Baidu AI Studio, in a production simulation, increase the simulation time please.
+# Set the general options of our simulation
+#options:
+#  minimize: yes
+#  verbose: yes
+  #default_number_of_iterations: 200000
+#  default_number_of_iterations: 50
+#  default_nsteps_per_iteration: 500
+#  checkpoint_interval: 50
+#  platform: CUDA
+#  temperature: 300*kelvin
+#  pressure: null
+#  output_dir: ABF-implicit-output
+#  switch_phase_interval: 50
+
+options:
+  minimize: yes
+  verbose: yes
+  default_number_of_iterations: 200
+  #200000
+  default_nsteps_per_iteration: 750
+  checkpoint_interval: 100
+  platform: CUDA
+  temperature: 300*kelvin
+  pressure: null
+  output_dir: ABF-implicit-output
+  switch_phase_interval: 100
+
+
+# Configure the specific molecules we will use for our systems
+# Note: We do not specify what the "receptor" and what the "ligand" is yet
+molecules:
+  # Define our receptor, T4-Lysozyme, we can call it whatever we want so we just use its name here as the directive
+  t4-lysozyme:
+    filepath: input/receptor.pdbfixer.pdb
+  # Define our ligand molecule
+  p-xylene:
+    filepath: input/ligand.tripos.mol2
+    # Get the partial charges for the ligand by generating them from antechamber with the AM1-BCC charge method
+    antechamber:
+      charge_method: bcc
+
+# Define the solvent for our system, here we use GBSA Implicit Solvent
+solvents:
+  # We can title this solvent whatever we want. We just call it "GBSA" for easy remembering
+  GBSA:
+    nonbonded_method: NoCutoff # Main definition of the nonbonded method
+    implicit_solvent: OBC2 # Onufriev-Bashford-Case GBSA model, name is related to Implicit solvents in OpenMM
+
+# Define the systems: What is the ligand, receptor, and solvent we put them in
+systems:
+  # We can call our system anything we want, this example just uses a short name for the receptor hyphenated with the ligand
+  t4-xylene:
+    # These names all use the names we defined previously
+    receptor: t4-lysozyme
+    ligand: p-xylene
+    solvent: GBSA
+    leap:
+      parameters: [leaprc.protein.ff14SB, leaprc.gaff2, leaprc.water.tip4pew]
+
+samplers:
+     stop_after_reaching_1:
+         type: ReplicaExchangeSampler
+         replica_mixing_scheme: swap-all
+         #online_analysis_interval: 100
+         #online_analysis_target_error: 0.1
+
+# The protocols define the alchemical path each phase will take, we use the same lambda values, though they could be different
+protocols:
+  # Call the protocol whatever you would like, here we name it based on the type of calculation we are running
+  absolute-binding:
+    complex:
+      alchemical_path:
+        lambda_electrostatics: [1.00, 1.00, 1.00, 1.00, 1.00, 0.95, 0.90, 0.80, 0.70, 0.60, 0.50, 0.40, 0.30, 0.20, 0.10, 0.05, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+        lambda_sterics:        [1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 0.99, 0.98, 0.95, 0.90, 0.80, 0.70, 0.60, 0.50, 0.40, 0.30, 0.20, 0.10, 0.05, 0.02, 0.01, 0.00]
+        # Set lambda restraints reverse of coupling parameter (see below in "restraint" for reason)
+        lambda_restraints:     [0.00, 0.25, 0.50, 0.75, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00]
+    solvent:
+      alchemical_path:
+        lambda_electrostatics: [1.00, 0.90, 0.80, 0.70, 0.60, 0.50, 0.40, 0.30, 0.20, 0.10, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+        lambda_sterics:        [1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 1.00, 0.90, 0.80, 0.70, 0.60, 0.50, 0.40, 0.30, 0.20, 0.10, 0.00]
+
+# Here we combine the system and the protocol to make an experiment
+experiments:
+  system: t4-xylene
+  protocol: absolute-binding
+  sampler: stop_after_reaching_1
+  restraint:
+    type: Boresch # keep the ligand in a single pocket
+
