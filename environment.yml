@@ -1,4 +1,4 @@
-ame: Dock-MD-FEP
+name: Dock-MD-FEP
 channels:
   #- https://mirrors.ustc.edu.cn/anaconda/pkgs/main
   - conda-forge
